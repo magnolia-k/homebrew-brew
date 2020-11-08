@@ -8,6 +8,8 @@ class Dotty < Formula
 
   bottle :unneeded
 
+  keg_only "because I want it so"
+
   depends_on :java => "1.8+"
 
   def install
